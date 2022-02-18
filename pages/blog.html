@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eduford</title>
+  <link rel="stylesheet" href="../css/blog.css">
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/sobre.css">
+  <script src="https://kit.fontawesome.com/5b3cdbeeda.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header >
+    <nav class="menu">
+      <a href="#"><img src="../image/logo.png" class="logo"></a>
+      <div class="nav_links" id="nav_link">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="../Index.html">Home</a></li>
+          <li><a href="./sobre.html">About</a></li>
+          <li><a href="./courses.html">Courses</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Certificate & Online Programs for 2022</h1>
+  </header>
+  <!-------------------Main--------------------------------------->
+  <main>
+
+    <!---------------------------Blog Content--------------------------->
+    <section class="blog">
+    <div class="row">
+      <div class="blog-left">
+     <img src="../image/certificate.jpg" alt="">
+     <h2>Our Certificate & Online Programs for 2022</h2>
+     <br>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quis illum voluptates ducimus voluptate reprehenderit eum quam iste culpa itaque eius, sint minus nam minima cumque. Quo cupiditate labore vitae architecto, magni saepe quaerat, doloremque rerum, inventore veniam ducimus animi odit itaque asperiores dignissimos blanditiis molestias. Optio officia quasi ducimus?</p>
+     <br>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat assumenda eos distinctio qui error? Pariatur accusamus sit ipsum ex quod!</p>
+     <br>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis nam dolor debitis. Recusandae hic nemo ex. Sapiente alias rerum modi, unde similique laboriosam totam aliquid id deleniti pariatur possimus ea magnam omnis quod quisquam saepe quis rem commodi quibusdam ut accusantium. Ex perspiciatis quod quam ea quis, incidunt dolore, in molestias aliquam repellendus ratione blanditiis vero fuga laborum magnam amet.</p><br>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nihil ea temporibus commodi? Eum esse, neque sint in recusandae iure velit praesentium consequatur ea, delectus sequi aperiam dolorum voluptatem. Aspernatur eius maxime voluptatem cumque iusto obcaecati, rem tempore ab voluptate deserunt reprehenderit esse perferendis quibusdam vel qui enim excepturi impedit nam amet dicta. Et perferendis esse minus hic voluptas doloribus aspernatur iure maiores quibusdam, cum eum laudantium excepturi sequi tempora vitae nulla consequuntur sed qui aperiam praesentium possimus! Quidem voluptatibus dignissimos ratione libero vitae temporibus suscipit! Aut soluta, ab magni necessitatibus cumque minus eius, fugiat perspiciatis quasi eveniet perferendis laboriosam?</p>
+     <div class="comment-box">
+       <h3>Leave a comment</h3>
+       <form class="comment-form">
+         <input type="text" placeholder="Enter Name">
+         <input type="email" placeholder="Enter Email">
+         <textarea  rows="5" placeholder="Your Commment"></textarea>
+         <button class="btn" id="btn-red" type="submit">Post Comment</button>
+       </form>
+     </div>
+      </div>
+      <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+          <span>Comerce</span>
+          <span>12</span>
+        </div>
+        <div>
+          <span>Marketing</span>
+          <span>32</span>
+        </div>
+        <div>
+          <span>Cooker</span>
+          <span>23</span>
+        </div>
+        <div>
+          <span>Airplane</span>
+          <span>19</span>
+        </div>
+        <div>
+          <span>Lawer</span>
+          <span>11</span>
+        </div>
+        <div>
+          <span>English</span>
+          <span>67</span>
+        </div>
+        <div>
+          <span>Babysitting</span>
+          <span>20</span>
+        </div>
+        <div>
+          <span>Spanish</span>
+          <span>72</span>
+        </div>
+      </div>
+    </div>
+  </section>
+      </main>
+  <!--------------------Footer-------------------------------->
+  <footer>
+    <h4>About Us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+       Labore sapiente accusantium<br> hic maiores suscipit
+        eligendi perspiciatis. Labore, amet.</p>
+        <div class="icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-github"></i>
+          <i class="fab fa-whatsapp"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by Easy Toturial</p>
+  </footer>
+  <!--JavaScript for Toggle Menu-->
+  <script>
+    var nav_link = document.getElementById("nav_link")
+    function showMenu(){
+      nav_link.style.right ="0";
+    }
+    function hideMenu(){
+      nav_link.style.right = "-200px"
+    }
+ </script>
+</body>
+</html>

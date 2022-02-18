@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eduford</title>
+  <link rel="stylesheet" href="../css/courses.css">
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/sobre.css">
+  <script src="https://kit.fontawesome.com/5b3cdbeeda.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header >
+    <nav class="menu">
+      <a href="#"><img src="../image/logo.png" class="logo"></a>
+      <div class="nav_links" id="nav_link">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="../Index.html">Home</a></li>
+          <li><a href="./sobre.html">About</a></li>
+          <li><a href="./courses.html">Courses</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Courses</h1>
+  </header>
+  <!-------------------Main--------------------------------------->
+  <main>
+    <!--------------------Couse---------------------->
+ <section class="course comum">
+   <h1>Courses We Offer</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+ <div class="row">
+   <div class="rowcol">
+     <h3>Beginner</h3>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Nobis aperiam ipsum dolorum, sunt magni debitis 
+        omnis qui non voluptatem molestias neque.</p>
+   </div>
+   <div class="rowcol">
+     <h3>Upper</h3>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Nobis aperiam ipsum dolorum, sunt magni debitis 
+        omnis qui non voluptatem molestias neque.</p>
+   </div>
+   <div class="rowcol">
+     <h3>Intermediate</h3>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Nobis aperiam ipsum dolorum, sunt magni debitis 
+        omnis qui non voluptatem molestias neque.</p>
+   </div>
+ </div>
+ </section>
+
+ <!---------------Facilities---------------------------->
+<section class="facilities comum">
+  <h1>Facilities</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  <div class="row">
+  <div class="facilitiescol">
+    <img src="../image/library.png">
+    <h3>Word Class Library</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       Adipisci facere vel ab?</p>
+  </div>
+  <div class="facilitiescol">
+    <img src="../image/basketball.png">
+    <h3>Largest Play Ground</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       Adipisci facere vel ab?</p>
+  </div>
+  <div class="facilitiescol">
+    <img src="../image/cafeteria.png">
+    <h3>Tasty and Healthy Food</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       Adipisci facere vel ab?</p>
+  </div>
+</div>
+</section>
+  </main>
+
+  <!--------------------Footer-------------------------------->
+  <footer>
+    <h4>About Us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+       Labore sapiente accusantium<br> hic maiores suscipit
+        eligendi perspiciatis. Labore, amet.</p>
+        <div class="icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-github"></i>
+          <i class="fab fa-whatsapp"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by Easy Toturial</p>
+  </footer>
+  <!--JavaScript for Toggle Menu-->
+  <script>
+    var nav_link = document.getElementById("nav_link")
+    function showMenu(){
+      nav_link.style.right ="0";
+    }
+    function hideMenu(){
+      nav_link.style.right = "-200px"
+    }
+ </script>
+</body>
+</html>

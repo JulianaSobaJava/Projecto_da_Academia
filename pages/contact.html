@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eduford</title>
+  <link rel="stylesheet" href="../css/sobre.css">
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/contact.css">
+  <script src="https://kit.fontawesome.com/5b3cdbeeda.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header >
+    <nav class="menu">
+      <a href="#"><img src="../image/logo.png" class="logo"></a>
+      <div class="nav_links" id="nav_link">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+        <li><a href="../Index.html">Home</a></li>
+        <li><a href="./sobre.html">About</a></li>
+        <li><a href="./courses.html">Courses</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+  </header>
+  <!-------------------Main--------------------------------------->
+  <main>
+    <!-----------------Location----------------------->
+    <section class="location comum">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.583515078251!2d13.244952314260459!3d-8.82513849366245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f3cbc57e8ce7%3A0x2f4f861c202a76b1!2sInstituto%20Polit%C3%A9cnico%20Industrial%20de%20Luanda%20(IPIL)!5e0!3m2!1spt-PT!2sao!4v1633986198939!5m2!1spt-PT!2sao" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <!----------------Contact us------------------------------->
+    <section class="contact-us">
+      <div class="row">
+      <div class="contact-col">
+        <div>
+          <i class="fas fa-home"></i>
+          <span>
+            <h5>XYZ Road, ABC Building</h5>
+            <p>Bangala, Wonder, IN</p>
+          </span>
+        </div>
+        <div>
+          <i class="fas fa-phone-alt"></i>
+          <span>
+            <h5>+244 974-642-483</h5>
+            <p>Mondey to Saturday, 10AM to 6PM </p>
+          </span>
+        </div>
+        <div>
+          <i class="fas fa-envelope"></i>
+          <span>
+            <h5>info@easytoturial.com</h5>
+            <p>Email Us Your Query </p>
+          </span>
+        </div>
+      </div>
+      <div class="contact-col">
+        <form action="../others/form_handler.php" method="post">
+          <input type="text" name="name" placeholder="Enter Your Name" required>
+          <input type="email" name="email" placeholder="Enter Your Email Adress" required>
+          <input type="text" name="subject" placeholder="Enter Your Subject" required>
+          <textarea placeholder="Message" name="message" required rows="8"></textarea>
+          <button type="submit" class="btn"  id="btn-red">Send Message</button>
+        </form>
+      </div> 
+      </div>
+    </section>
+  </main>
+  <!--------------------Footer-------------------------------->
+  <footer>
+    <h4>About Us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+       Labore sapiente accusantium<br> hic maiores suscipit
+        eligendi perspiciatis. Labore, amet.</p>
+        <div class="icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-github"></i>
+          <i class="fab fa-whatsapp"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by Easy Toturial</p>
+  </footer>
+  <!--JavaScript for Toggle Menu-->
+  <script>
+    var nav_link = document.getElementById("nav_link")
+    function showMenu(){
+      nav_link.style.right ="0";
+    }
+    function hideMenu(){
+      nav_link.style.right = "-200px"
+    }
+ </script>
+</body>
+</html>
